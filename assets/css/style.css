@@ -1,0 +1,64 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	font-family: sans-serif;
+	background: #222;
+}
+
+header {
+	width: 100%;
+	background: #000;
+}
+
+header nav {
+	width: 85%;
+	margin: auto;
+}
+
+header ul {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+header li {
+	list-style: none;
+}
+
+header a {
+	text-decoration: none;
+	display: block;
+	color: white;
+	transition: all 250ms ease-in-out;
+	padding: 1em 1.45em;
+}
+
+header a:hover {
+	color: steelblue;
+} 
+
+.content {
+	width: 85%;
+	margin: auto;
+	min-height: 50vh;
+	background: #dfdfdf;
+	padding-top: 2em;
+}
+
+.content h1 {
+	width: max-content;
+	margin: auto;
+	font-size: 2.5rem;
+}
+
+.content p {
+	width: 80%;
+	margin: 1.5em auto auto auto;
+}
